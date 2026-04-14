@@ -19,3 +19,4 @@ jobs:
           dockerfilePath: $(frontProjectPath)/Dockerfile
           dockerContext: $(frontProjectPath)
           imageName: $(frontImageNameAndTag)
+          d $(frontProjectPath)
